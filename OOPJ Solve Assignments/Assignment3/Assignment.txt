@@ -1,0 +1,26 @@
+1] Final ref var v/s immutable object with example
+2] WAP to add,sub, transpose, multiply 2 matrices
+3] WAP to print tables of 1 to 30 ex. in a row 2 4 6 8,......
+====================================================
+1]
+immutable--->
+  String name = "John";
+name = "Sam"; 
+-------------------------------------
+final---->
+final String name = "John";
+if we write
+
+name = "Sam";
+It will give a compiler time error
+-----------------------------------------------------------------------------------	
+Final vs immutable in Java: 
+1. ***Final means that you can't change the object reference to point to another reference or another object, but you can still mutate its state (by using the setter method). 
+***Where immutable means that the object's actual value can't be changed, but you can change its reference to another one.
+
+2. ***The modifier final is applicable for variables not for objects, ***Whereas immutability applicable for objects not for variables.
+
+3. ***Final ensures that the address of the object remains the same, ***Whereas the immutable suggest that we can't change the state of the object once created. 
+
+4. ***By declaring the reference variable as final we are not going to get any immutability nature but we can perform any type of changes in the corresponding objects and we can't reassign reference variable to any new object
+======================================================
